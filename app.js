@@ -15,7 +15,7 @@ const corsOptions = {
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
 };
-
+console.log("hii");
 mongoose
   .connect(process.env.MONGO_URI, {
     useNewUrlParser: true,
